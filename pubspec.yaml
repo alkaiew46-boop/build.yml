@@ -1,1 +1,17 @@
+name: translate_x
+description: Translate X - Offline Translator
+publish_to: "none"
 
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_mlkit_translation: ^0.15.1
+  shared_preferences: ^2.5.3
+  flutter_overlay_window: ^0.5.0
+
+flutter:
+  uses-material-design: true
