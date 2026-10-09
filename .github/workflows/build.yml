@@ -27,7 +27,9 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
-    - name: Build APK
+        - name: Clean project
+      run: flutter clean
+
       run: flutter build apk --release
 
     - name: Upload APK Artifact
