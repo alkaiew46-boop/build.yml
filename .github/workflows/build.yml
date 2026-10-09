@@ -29,6 +29,8 @@ jobs:
 
         - name: Clean project
       run: flutter clean
+    - name: Build APK
+      run: flutter build apk --release
 
       run: flutter build apk --release
 
